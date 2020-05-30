@@ -1,0 +1,54 @@
+{
+  "name": "social_community_node_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "make test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "csurf": "^1.11.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.16",
+    "mongoose-findorcreate": "^3.0.0",
+    "mongoskin": "^2.1.0",
+    "morgan": "^1.10.0",
+    "oauth": "^0.9.15",
+    "passport": "^0.4.1",
+    "passport-github": "^1.1.0",
+    "prettier": "^2.0.5",
+    "routes": "^2.1.0",
+    "sendgrid": "^5.2.3",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0",
+    "standard": "^14.3.4",
+    "superagent": "^5.2.2",
+    "eslint": ">=5.16.0",
+    "eslint-config-airbnb": ">=17.1.0",
+    "eslint-config-prettier": ">=4.1.0",
+    "eslint-plugin-import": ">=2.17.2",
+    "eslint-plugin-jsx-a11y": ">=6.2.1",
+    "eslint-plugin-node": ">=8.0.1",
+    "eslint-plugin-prettier": ">=3.0.1",
+    "eslint-plugin-react": ">=7.12.4",
+    "parcel-bundler": ">=1.12.3",
+    "prettier": ">=1.17.0"
+  },
+  "engines": {
+    "node": ">=12.17.0"
+  }
+}
